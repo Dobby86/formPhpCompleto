@@ -52,8 +52,14 @@ a{
 h2{
     font-family: Arial, Helvetica, sans-serif;
 }
+.backHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card-body{
     min-height: 700px;
+    
 }
 .navbar{
     background: -moz-linear-gradient(-45deg, #ff7e00 0%, #a016f7 100%);
@@ -94,6 +100,13 @@ footer{
                         </div>
                         <div class="main ml-3">
                         <h2>Grazie  <?php echo  $nome. " " . "della provincia di". " " . $provincia  ;  ?> per aver aderito all' iniziativa!!!</h2>
+                        <hr>
+                            <div class="backHome">
+
+                            <button type="button" class="btn btn-info"><i class="fas fa-home"></i><a href="index.php">  Back To Home</a></button>
+
+                            </div>
+                             
                             
                         </div>
                     </div>
