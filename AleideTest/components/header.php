@@ -1,7 +1,6 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a href="index.php">AleideTest</a>
-    <a href="welcome.php">congrat</a>
 </nav>
 
 <style>

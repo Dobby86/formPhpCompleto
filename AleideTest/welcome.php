@@ -45,16 +45,15 @@ while($row= mysqli_fetch_array($mostraUtenti)){
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: lightcyan;
-}
-
 a{
    color: whitesmoke;
    
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
+}
+.card-body{
+    min-height: 700px;
 }
 .navbar{
     background: -moz-linear-gradient(-45deg, #ff7e00 0%, #a016f7 100%);

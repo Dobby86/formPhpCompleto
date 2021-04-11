@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 11, 2021 at 05:32 PM
+-- Generation Time: Apr 11, 2021 at 05:47 PM
 -- Server version: 5.7.24
 -- PHP Version: 7.3.7
 
@@ -8329,8 +8329,7 @@ CREATE TABLE `utenti` (
 --
 
 INSERT INTO `utenti` (`id`, `nome`, `data`, `email`, `regionestamp`, `provinciastamp`, `comunestamp`) VALUES
-(8, 'Marco De Lorenzi', '1986-04-04', 'marco.delorenzi@yahoo.it', 'Puglia', 'Lecce', 'Surbo'),
-(9, 'Marco De Lorenzi', '1990-02-28', 'marco.delorenzi@yahoo.it', 'Umbria', 'Perugia', 'Giano dell\'Umbria');
+(1, 'Marco De Lorenzi', '1986-04-04', 'marco.delorenzi@yahoo.it', 'Puglia', 'Lecce', 'Lecce');
 
 --
 -- Indexes for dumped tables
@@ -8374,7 +8373,7 @@ ALTER TABLE `comuni`
 -- AUTO_INCREMENT for table `utenti`
 --
 ALTER TABLE `utenti`
-  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
