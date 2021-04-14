@@ -41,4 +41,8 @@ if(isset($_POST["action"]) && $_POST["action"] == "getComuni" ){
     }
 
     echo $options;
+
+
 }
+
+mysqli_close($connessioneDB);

@@ -4,6 +4,7 @@ $(document).ready(function(){
   $('#regione').on('change', function(){ 
 
       regione = $(this).val();
+     
       if(regione!= 0){
           $.ajax({
               type:'POST',
@@ -21,7 +22,7 @@ $(document).ready(function(){
       else
       {
          $('#provincia').html('<option value="">Seleziona la Provincia</option>');
-         $('#comune').html('<option value="">Seleziona il Comune </option>'); 
+         $('#comune').html('<option value="">Seleziona il Comune</option>'); 
       }
   });
  

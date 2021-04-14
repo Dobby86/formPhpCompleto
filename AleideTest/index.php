@@ -86,7 +86,7 @@
                           <p> 
                             <label for="regione">Regione:</label><br />
                             <select id="regione" name="regione">
-                            <option value ="0">Seleziona la Regione</option>
+                            <option value ="0">-Seleziona la Regione-</option>
                             <?php
                               while($row = mysqli_fetch_array($mostraRegione)){
                             ?>                    
@@ -110,7 +110,9 @@
                                 <select id="comune" name="comune">
                                 <option value="0">Seleziona il Comune</option>
                              </select>
-                             </p>        
+                             </p>      
+                             
+                               
                             <hr>
                             <input type="submit" name="submit" value="invia" class="btn btn-success">
                    </div>
