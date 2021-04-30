@@ -72,6 +72,19 @@
                     <h2 class="login">
                             Segnati qui 
                     </h2>
+                   
+                    <?php
+                         for( $contatore = 0; $contatore <= 10; $contatore++){
+                          
+                            
+                             if($contatore == 5)
+                              continue;
+
+                              echo $contatore . "<br>";
+                            }       
+                         
+                    ?>
+                    
                    <div class="form-group">
                             <label for="nome">Nome completo</label>
                             <input type="text" name="nome" class="form-control" required>

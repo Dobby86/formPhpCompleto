@@ -7,7 +7,7 @@
         $data = $_POST["data"];
         $email = $_POST["email"];
 
-        if(!preg_match("/^[a-zA-Z-' ]*$/",$nome)) {
+        if(!preg_match("/^[-a-zA-Z0-9 .]*$/",$nome)) {
           
             exit("Only letters and white space allowed");
         }
@@ -25,7 +25,7 @@
             //filtro nome
 
             $nomeFiltrato = mysqli_real_escape_string($connessioneDB, $nome);
-            
+
              //converti-province
 
             $selNomeProv = mysqli_query($connessioneDB, 'SELECT provincia FROM province WHERE id = '. $provincia);
